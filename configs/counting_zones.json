@@ -1,0 +1,20 @@
+{
+  "frame_size": [1920, 1080],
+  "zones": {
+    "bathroom": {
+      "label": "Bathroom",
+      "color_bgr": [0, 255, 0],
+      "points": [[0, 0], [255, 0], [330, 260], [505, 720], [700, 1080], [0, 1080]]
+    },
+    "door_inside": {
+      "label": "Door Inside",
+      "color_bgr": [255, 220, 0],
+      "points": [[360, 160], [790, 150], [850, 720], [355, 720]]
+    },
+    "door_outside": {
+      "label": "Door Outside",
+      "color_bgr": [0, 90, 255],
+      "points": [[660, 650], [1240, 610], [1445, 760], [1120, 1080], [650, 1080]]
+    }
+  }
+}

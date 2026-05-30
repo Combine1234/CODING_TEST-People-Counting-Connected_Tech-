@@ -1,0 +1,32 @@
+# Runtime environments
+.venv/
+.venv_gpu/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local data and generated artifacts
+entrance.mov
+Dataset/image_capture/
+Dataset/labeledandimg/
+Dataset/shirt_crop_dataset/
+Dataset/shirt_cls_dataset/
+Dataset/counting_output/*.mp4
+Dataset/counting_output/*.csv
+Dataset/counting_output/*.json
+runs/
+
+# Model weights: keep only the small trained shirt classifier in this repo
+models/*.pt
+!models/shirt_classifier_best.pt
+
+# Installer/cache noise
+pip_cache/
+pip_tmp/
+.ultralytics/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

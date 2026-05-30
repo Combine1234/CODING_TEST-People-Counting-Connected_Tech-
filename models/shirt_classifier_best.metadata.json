@@ -1,0 +1,28 @@
+{
+  "dataset": {
+    "source": "D:\\For_work\\Dataset\\shirt_crop_dataset",
+    "dataset": "D:\\For_work\\Dataset\\shirt_cls_dataset",
+    "classes": {
+      "Superai_Shirt": {
+        "source": 595,
+        "train": 476,
+        "val": 119
+      },
+      "Unknow_Shirt": {
+        "source": 119,
+        "train": 95,
+        "val": 24
+      }
+    }
+  },
+  "model": "models\\yolov8n-cls.pt",
+  "fallback_model": "yolov8n-cls.yaml",
+  "epochs": 25,
+  "imgsz": 224,
+  "batch": 32,
+  "device": "0",
+  "run_dir": "D:\\For_work\\runs\\classify\\shirt_yolov8n_cls",
+  "best": "D:\\For_work\\runs\\classify\\shirt_yolov8n_cls\\weights\\best.pt",
+  "last": "D:\\For_work\\runs\\classify\\shirt_yolov8n_cls\\weights\\last.pt",
+  "copied_best": "D:\\For_work\\models\\shirt_classifier_best.pt"
+}
